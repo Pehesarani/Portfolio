@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pehesarani Dissanayake | Designer & Developer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+</head>
+<body>
+
+  <div class="mesh-bg" aria-hidden="true">
+    <div class="mesh-orb orb-1"></div>
+    <div class="mesh-orb orb-2"></div>
+    <div class="mesh-orb orb-3"></div>
+  </div>
+  <div class="grain" aria-hidden="true"></div>
+
+  <nav id="navbar">
+    <div class="nav-inner">
+      <div class="logo">P<span>.</span></div>
+      <div class="menu-toggle" id="menuToggle"><i class="fas fa-bars"></i></div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#work" class="nav-link">Work</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+
+    <!-- HOME -->
+    <section id="home" class="hero-section">
+      <div class="hero-inner container">
+        <div class="hero-text">
+          <p class="hero-eyebrow">UI/UX Designer &amp; Mobile Developer</p>
+          <h1 class="hero-name">
+            Pehesarani<br>
+            <em>Dissanayake</em>
+          </h1>
+          <p class="hero-desc">Creating meaningful digital experiences that feel inevitable.</p>
+          <div class="hero-btns">
+            <a href="#work" class="btn-primary">View My Work</a>
+            <a href="#" id="downloadCvBtn" class="btn-ghost">Download CV</a>
+          </div>
+          <div class="hero-socials">
+            <a href="https://www.linkedin.com/in/pehesarani-dissanayake-9425503b0/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://www.facebook.com/share/1GJXpFJRxa/" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/pehesaranidissanayake" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="profile-ring">
+            <div class="profile-img-wrap">
+              <img src="images/myphoto.png" alt="Pehesarani Dissanayake" onerror="this.style.display='none'; this.parentElement.innerHTML='<i class=\'fas fa-user-astronaut fa-5x\'></i>'">
+            </div>
+          </div>
+          <div class="floating-chip chip-1">UI/UX Designer</div>
+          <div class="floating-chip chip-2">Mobile Developer</div>
+          <div class="floating-chip chip-3">Digital Marketer</div>
+        </div>
+      </div>
+      <div class="scroll-hint">
+        <span>Scroll</span>
+        <div class="scroll-line"></div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-num">01</span>
+          <h2 class="section-title">About <span>Me</span></h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-left">
+            <div class="about-img-frame">
+              <img src="images/myphoto.png" alt="Pehesarani" onerror="this.style.display='none'">
+              <div class="about-img-deco"></div>
+            </div>
+          </div>
+          <div class="about-right">
+            <p class="about-lead">I'm an undergraduate at <strong>SLIIT</strong>, specializing in Interactive Media — crafting digital experiences that are not just beautiful, but meaningful.</p>
+            <p class="about-body">I believe the best designs are invisible. They just feel right. From wellness apps to sustainability platforms, I pour intention into every pixel and interaction.</p>
+            <div class="about-meta">
+              <div class="meta-item"><i class="fas fa-map-marker-alt"></i><span>Kurunegala, Sri Lanka</span></div>
+              <div class="meta-item"><i class="fas fa-language"></i><span>English &amp; Sinhala</span></div>
+              <div class="meta-item"><i class="fas fa-graduation-cap"></i><span>SLIIT, BSc IT (2024–2028)</span></div>
+            </div>
+            <div class="skills-grid">
+              <div class="skill-pill"><i class="fab fa-figma"></i> Figma</div>
+              <div class="skill-pill"><i class="fab fa-android"></i> Android Studio</div>
+              <div class="skill-pill"><i class="fab fa-image"></i> Photoshop</div>
+              <div class="skill-pill"><i class="fab fa-bezier-curve"></i> Illustrator</div>
+              <div class="skill-pill"><i class="fas fa-magic"></i> Canva</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WORK -->
+    <section id="work">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-num">02</span>
+          <h2 class="section-title">My <span>Work</span></h2>
+        </div>
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-thumb echomate-thumb">
+              <div class="thumb-icon"><i class="fas fa-leaf"></i></div>
+              <div class="thumb-glow"></div>
+            </div>
+            <div class="project-body">
+              <div class="project-meta-top">
+                <span class="project-year">2024</span>
+                <span class="project-type">UI/UX Design</span>
+              </div>
+              <h3 class="project-title">EchoMate</h3>
+              <p class="project-desc">Sustainability-focused mobile app encouraging eco-friendly daily habits through gamification and tracking.</p>
+              <div class="project-tags">
+                <span>UI/UX</span><span>Figma</span><span>Sustainability</span>
+              </div>
+              <a href="#" class="project-cta view-case" data-case="echomate">
+                View Case Study <i class="fas fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-thumb glowme-thumb">
+              <div class="thumb-icon"><i class="fas fa-spa"></i></div>
+              <div class="thumb-glow"></div>
+            </div>
+            <div class="project-body">
+              <div class="project-meta-top">
+                <span class="project-year">2024</span>
+                <span class="project-type">Mobile Dev</span>
+              </div>
+              <h3 class="project-title">Glow Me</h3>
+              <p class="project-desc">Wellness and self-care app for daily habit tracking, hydration monitoring, and personalised routines.</p>
+              <div class="project-tags">
+                <span>Android</span><span>Android Studio</span><span>Mobile Dev</span>
+              </div>
+              <a href="#" class="project-cta view-case" data-case="glowme">
+                View Case Study <i class="fas fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CASE: EchoMate -->
+    <div id="case-echomate" class="case-wrap" style="display:none;">
+      <div class="container case-inner">
+        <a href="#" class="back-btn close-case"><i class="fas fa-arrow-left"></i> Back to Work</a>
+        <div class="case-hero">
+          <div class="case-hero-text">
+            <p class="case-eyebrow">UI/UX Design &bull; Figma &bull; 4 Weeks</p>
+            <h1 class="case-title">EchoMate</h1>
+            <p class="case-subtitle">Making sustainability feel effortless and rewarding.</p>
+          </div>
+          <div class="case-mockup echomate-thumb"><i class="fas fa-leaf fa-4x"></i></div>
+        </div>
+        <div class="case-section-block">
+          <h3>Problem</h3>
+          <p>People want to live sustainably but don't know where to start. Existing apps are too complicated or boring to use consistently.</p>
+        </div>
+        <div class="case-section-block">
+          <h3>Solution</h3>
+          <p>EchoMate makes eco-friendly habits simple, trackable, and rewarding through daily tracking and achievement systems.</p>
+        </div>
+        <div class="case-screens-scroll">
+          <img src="images/echomate1.png" alt="EchoMate Screen 1">
+          <img src="images/echomate2.png" alt="EchoMate Screen 2">
+          <img src="images/echomate3.png" alt="EchoMate Screen 3">
+          <img src="images/echomate4.png" alt="EchoMate Screen 4">
+          <img src="images/echomate5.png" alt="EchoMate Screen 5">
+          <img src="images/echomate6.png" alt="EchoMate Screen 6">
+          <img src="images/echomate7.png" alt="EchoMate Screen 7">
+          <img src="images/echomate8.png" alt="EchoMate Screen 8">
+          <img src="images/echomate9.png" alt="EchoMate Screen 9">
+          <img src="images/echomate10.png" alt="EchoMate Screen 10">
+          <img src="images/echomate11.png" alt="EchoMate Screen 11">
+          <img src="images/echomate12.png" alt="EchoMate Screen 12">
+          <img src="images/echomate13.png" alt="EchoMate Screen 13">
+        </div>
+        <div class="case-badges"><span>Figma</span><span>Canva</span><span>Adobe Illustrator</span></div>
+        <div class="case-nav-row">
+          <a href="https://www.figma.com/proto/qmtSiwYdT98PWpbs4BnZOB/MAD-Project-1?node-id=114-1139&p=f&t=T9dbl2BeoQukEPvj-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=114%3A1139" class="btn-primary" id="prototypeLink" target="_blank">View Prototype (Figma)</a>
+          <a href="#" class="next-project-link" data-next="glowme">Next: Glow Me →</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- CASE: Glow Me -->
+    <div id="case-glowme" class="case-wrap" style="display:none;">
+      <div class="container case-inner">
+        <a href="#" class="back-btn close-case"><i class="fas fa-arrow-left"></i> Back to Work</a>
+        <div class="case-hero">
+          <div class="case-hero-text">
+            <p class="case-eyebrow">Android Dev &bull; Android Studio &bull; 4 Weeks</p>
+            <h1 class="case-title">Glow Me</h1>
+            <p class="case-subtitle">Building healthier daily routines through intuitive design.</p>
+          </div>
+          <div class="case-mockup glowme-thumb"><i class="fas fa-spa fa-4x"></i></div>
+        </div>
+        <div class="case-section-block">
+          <h3>Problem</h3>
+          <p>Users struggle to maintain healthy daily routines like hydration and task tracking without persistent, friendly reminders.</p>
+        </div>
+        <div class="case-section-block">
+          <h3>Solution</h3>
+          <p>Glow Me helps users build healthier habits through intuitive tracking, progress visualisation, and smart reminders.</p>
+        </div>
+        <div class="case-screens-scroll">
+          <img src="images/glowme1.jpeg" alt="Glow Me Screen 1">
+          <img src="images/glowme2.jpeg" alt="Glow Me Screen 2">
+          <img src="images/glowme3.jpeg" alt="Glow Me Screen 3">
+          <img src="images/glowme4.jpeg" alt="Glow Me Screen 4">
+          <img src="images/glowme5.jpeg" alt="Glow Me Screen 5">
+          <img src="images/glowme6.jpeg" alt="Glow Me Screen 6">
+          <img src="images/glowme7.jpeg" alt="Glow Me Screen 7">
+          <img src="images/glowme8.jpeg" alt="Glow Me Screen 8">
+          <img src="images/glowme9.jpeg" alt="Glow Me Screen 9">
+          <img src="images/glowme10.jpeg" alt="Glow Me Screen 10">
+        </div>
+        <div class="case-badges"><span>Android Studio</span><span>Figma</span><span>Canva</span></div>
+        <div class="case-nav-row">
+          <a href="#" class="next-project-link" data-next="echomate">← Prev: EchoMate</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-num">03</span>
+          <h2 class="section-title">Let's Work <span>Together</span></h2>
+        </div>
+        <p class="contact-lead">Have a project in mind? I'd love to hear from you.</p>
+        <div class="contact-grid">
+          <div class="contact-info">
+            <div class="contact-item">
+              <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+              <div>
+                <p class="contact-label">Email</p>
+                <p class="contact-val">pehesaranidissanayake2@gmail.com</p>
+                <button class="inline-btn" id="copyEmailBtn">Copy</button>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon"><i class="fab fa-linkedin-in"></i></div>
+              <div>
+                <p class="contact-label">LinkedIn</p>
+                <p class="contact-val">linkedin.com/in/pehesarani-dissanayake</p>
+                <button class="inline-btn" id="visitLinkedinBtn">Visit</button>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+              <div>
+                <p class="contact-label">Location</p>
+                <p class="contact-val">Kurunegala, Sri Lanka</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon"><i class="fas fa-phone-alt"></i></div>
+              <div>
+                <p class="contact-label">Phone</p>
+                <p class="contact-val">+94 75 982 5102</p>
+              </div>
+            </div>
+          </div>
+          <form class="contact-form" onsubmit="return false;">
+            <div class="form-group"><input type="text" placeholder="Full Name" id="formName"></div>
+            <div class="form-group"><input type="email" placeholder="Email Address" id="formEmail"></div>
+            <div class="form-group"><input type="text" placeholder="Subject" id="formSubject"></div>
+            <div class="form-group"><textarea rows="5" placeholder="Your message..." id="formMessage"></textarea></div>
+            <button type="button" class="btn-primary btn-full" id="sendMsgBtn">Send Message <i class="fas fa-paper-plane"></i></button>
+          </form>
+        </div>
+        <div class="internship-banner">
+          <div>
+            <p class="banner-label">Currently open to</p>
+            <p class="banner-text">🚀 Internship Opportunities — 2026</p>
+          </div>
+          <a href="#" id="downloadCvBanner" class="btn-ghost">Download CV</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+  <div class="container footer-inner">
+    <div class="logo">P<span>.</span></div>
+    <div class="footer-socials">
+      <a href="https://www.linkedin.com/in/pehesarani-dissanayake-9425503b0/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+      <a href="mailto:pehesaranidissanayake2@gmail.com"><i class="fas fa-envelope"></i></a>
+      <a href="https://www.instagram.com/pehesaranidissanayake" target="_blank"><i class="fab fa-instagram"></i></a>
+    </div>
+    <p class="footer-copy">&copy; 2026 Pehesarani Dissanayake</p>
+  </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+<script>
+  emailjs.init("YOUR_PUBLIC_KEY");
+
+  document.getElementById('menuToggle').addEventListener('click', () => {
+    document.getElementById('navLinks').classList.toggle('open');
+  });
+  document.querySelectorAll('.nav-link').forEach(l => l.addEventListener('click', () => {
+    document.getElementById('navLinks').classList.remove('open');
+  }));
+
+  let caseOpen = false;
+
+  const sections = document.querySelectorAll('section[id]');
+  window.addEventListener('scroll', () => {
+    if (caseOpen) return;
+    let current = '';
+    sections.forEach(s => { if (scrollY >= s.offsetTop - 120) current = s.id; });
+    document.querySelectorAll('.nav-link').forEach(l => {
+      l.classList.toggle('active', l.getAttribute('href') === '#' + current);
+    });
+    document.getElementById('navbar').classList.toggle('scrolled', scrollY > 50);
+  });
+  window.dispatchEvent(new Event('scroll'));
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+  }, { threshold: 0.1 });
+  document.querySelectorAll('.project-card, .skill-pill, .feature-card, .contact-item').forEach(el => {
+    el.classList.add('reveal');
+    observer.observe(el);
+  });
+
+  const allSecs = ['home','about','work','contact'];
+
+  function showCase(id) {
+    caseOpen = true;
+    allSecs.forEach(s => { const el = document.getElementById(s); if(el) el.style.display = 'none'; });
+    document.querySelectorAll('.case-wrap').forEach(c => c.style.display = 'none');
+    const c = document.getElementById('case-' + id);
+    if(c) c.style.display = 'block';
+    document.querySelectorAll('.nav-link').forEach(l => {
+      l.classList.toggle('active', l.getAttribute('href') === '#work');
+    });
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+
+  function hideCases() {
+    caseOpen = false;
+    document.querySelectorAll('.case-wrap').forEach(c => c.style.display = 'none');
+    allSecs.forEach(s => { const el = document.getElementById(s); if(el) el.style.display = 'block'; });
+  }
+
+  document.querySelectorAll('.view-case').forEach(btn => btn.addEventListener('click', e => {
+    e.preventDefault(); showCase(btn.dataset.case);
+  }));
+  document.querySelectorAll('.close-case').forEach(b => b.addEventListener('click', e => {
+    e.preventDefault(); hideCases(); window.location.hash = '#work';
+  }));
+  document.querySelectorAll('.next-project-link').forEach(l => l.addEventListener('click', e => {
+    e.preventDefault(); showCase(l.dataset.next);
+  }));
+
+  document.getElementById('copyEmailBtn')?.addEventListener('click', () => {
+    navigator.clipboard.writeText('pehesaranidissanayake2@gmail.com');
+    alert('Email copied!');
+  });
+  document.getElementById('visitLinkedinBtn')?.addEventListener('click', () => {
+    window.open('https://linkedin.com/in/pehesarani-dissanayake', '_blank');
+  });
+
+  document.querySelectorAll('#downloadCvBtn, #downloadCvBanner').forEach(b => b.addEventListener('click', e => {
+    e.preventDefault();
+    const link = document.createElement('a');
+    link.href = 'Pehesarani_CV.pdf';
+    link.download = 'Pehesarani_CV.pdf';
+    link.click();
+  }));
+
+  document.getElementById('sendMsgBtn')?.addEventListener('click', () => {
+    const name    = document.getElementById('formName').value.trim();
+    const email   = document.getElementById('formEmail').value.trim();
+    const subject = document.getElementById('formSubject').value.trim();
+    const message = document.getElementById('formMessage').value.trim();
+
+    if (!name || !email || !message) {
+      alert('Please fill in your name, email and message.');
+      return;
+    }
+
+    emailjs.init("tW5hXEEUsFlPiocr6");
+    emailjs.send("service_n4tzge4", "template_zlkxf3g", {
+      from_name:  name,
+      from_email: email,
+      subject:    subject,
+      message:    message,
+    })
+    .then(() => {
+      alert('Message sent successfully!');
+      document.getElementById('formName').value    = '';
+      document.getElementById('formEmail').value   = '';
+      document.getElementById('formSubject').value = '';
+      document.getElementById('formMessage').value = '';
+    })
+    .catch((error) => {
+      alert('Failed to send. Please try again.');
+      console.error(error);
+    });
+  });
+
+  hideCases();
+</script>
+</body>
+</html>
